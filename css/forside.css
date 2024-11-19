@@ -1,0 +1,30 @@
+.logo-wrapper {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.logo-wrapper div {
+  animation: grow 1.5s ease-in-out forwards;
+}
+
+.logo-wrapper div img,
+.logo-wrapper div h1 {
+  margin-bottom: 1.5em;
+  width: 120px;
+  animation: grow 1.5s ease-in-out forwards;
+}
+   
+@keyframes grow {
+  from {
+      transform: scale(0);
+      opacity: 0;
+  }
+   
+  to {
+      transform: scale(1.5);
+      opacity: 1;
+  }
+}

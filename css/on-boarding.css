@@ -1,0 +1,97 @@
+
+    main {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      gap: 2em;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .flex {
+    margin-top: 1%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .imagewindow {
+      width: 400px;
+      height: 615px;
+      border: solid 1px black;
+      overflow: hidden;
+      border: none;
+      position: relative;
+    }
+    .imageroll {
+      position: absolute;
+      width: 1200px;
+    }
+    .dots {
+      display: flex;
+      gap: 5px;
+    }
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #c7c7c7;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .fill {
+      background-color: #4D861F;
+      width: 75px;
+      border-radius: 16px;
+    }
+
+    .text {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+    }
+
+   
+
+.page-control {
+  display: flex;
+  gap:1rem;
+text-align: center;
+}
+
+ .text p {
+      color: #404040;
+    margin: 0;
+      font-size: 18px;
+    }
+
+    .text h3 {
+        color: #404040;
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .prev, .next {
+        border: 2px solid #4D861F !important;
+        padding: 0.75em 2em;
+        border-radius: 40px;
+      min-width: 185px;
+        box-sizing: border-box;
+        font-size:20px ;
+        
+    }
+
+    .prev {
+      color: #4D861F;
+      background-color: white;
+      text-decoration: none;
+    }
+
+    .next {
+      color: white;
+      background-color: #4D861F;
+    }
